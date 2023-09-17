@@ -1,0 +1,14 @@
+# personal
+pink_bot/secret.py
+feature_requests.txt
+
+# venv
+Include
+Lib
+Scripts
+share
+pyvenv.cfg
+
+# cache
+*/__pycache__
+
