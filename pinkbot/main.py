@@ -1,10 +1,9 @@
-import secret, discord, logging
-import pink_bot.bot as bot
-
-discord.utils.setup_logging()
+import secret, logging, asyncio
+import bot
 
 if __name__ == "__main__":
     try:
-        bot.bot.run(secret.bot_token)
+        bot_instance = asyncio.run(bot.create_bot())
+        bot_instance.run(secret.bot_token)
     except Exception as e:
         logging.error(f"Unhandled error: {e}")
