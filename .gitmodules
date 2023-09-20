@@ -1,3 +1,6 @@
 [submodule "pinkbot"]
 	path = pinkbot
 	url = https://github.com/duskygloom/pinkbot
+[submodule "bocchi"]
+	path = bocchi
+	url = https://github.com/duskygloom/bocchi
