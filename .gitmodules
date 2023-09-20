@@ -1,0 +1,3 @@
+[submodule "pinkbot"]
+	path = pinkbot
+	url = https://github.com/duskygloom/pinkbot
